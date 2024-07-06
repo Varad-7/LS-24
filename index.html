@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketMania</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1 id="title">BasketMania</h1>
+        <nav class="nav">
+            <ul class="nav-content">
+                <li class="nav-list">
+                    <a href="#home" class="link-item active">
+                        <i class='bx bxs-home link-icon'></i>
+                        <span class="link-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#info" class="link-item active">
+                        <i class='bx bxs-book-content link-icon'></i>
+                        <span class="link-text">Info</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#contact" class="link-item active">
+                        <i class='bx bxs-contact link-icon'></i>
+                        <span class="link-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <img src="../basketball_image.jpg" alt="basketball" class="background-img">
+    </div>
+
+    <section id="info">
+        <div class="about-container">
+            <div class="about-info">
+                <h2>About Basketball</h2>
+                <p>Basketball is a popular sport played by two teams of five players on a rectangular court. The objective is to shoot a basketball through the defender's hoop while preventing the opposing team from shooting through their own hoop.</p>
+            </div>
+            <div class="about-card" onclick="rotateCard()">
+                <div class="card-front">
+                    <h3>My Fav Team</h3>
+                    <p>Click to know</p>
+                </div>
+                <div class="card-back">
+                    <img src="../gsw_StephCurry.jpg" alt="Golden State Warriors">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="highlights">
+        <h2>Key Highlights</h2>
+        <div class="highlight">
+            <h3>Memorable Moments</h3>
+            <p>Some of the most unforgettable moments in basketball history include Michael Jordan's iconic last shot for the Chicago Bulls and LeBron James' block in Game 7 of the 2016 NBA Finals.</p>
+        </div>
+        <div class="highlight">
+            <h3>Key Players</h3>
+            <p>Some of the greatest players in the history of basketball include Michael Jordan, Steph Curry, LeBron James, Kobe Bryant, and Magic Johnson.</p>
+        </div>
+        <div class="highlight">
+            <h3>Important Tournaments</h3>
+            <p>The NBA Finals, NCAA March Madness, and the FIBA Basketball World Cup are some of the most important tournaments in basketball.</p>
+        </div>
+        <div class="infographics">
+            <h3>Team Statistics</h3>
+            <img src="../3steps.svg" alt="Team Statistics">
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="links">
+            <a href="https://www.nba.com" target="_blank">NBA Official Website</a>
+            <a href="https://www.reddit.com/r/nba/" target="_blank">NBA Forums</a>
+        </div>
+        <p>&copy; 2024 BasketMania. All rights reserved.</p>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
